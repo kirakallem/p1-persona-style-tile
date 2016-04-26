@@ -3,19 +3,66 @@
 /***************/
 
 /* Color Palette */
+.color-1 {
+    background: red;
+}
 
+.color-2 {
+    background: blue;
+}
+
+.color-3 {
+    background: white;
+}
 
 /* Textures or Patterns*/
-
+.pattern-1 {
+     background: url("http://bgfons.com/upload/wood%20_texture3193.jpg")25% 25%  no-repeat;
+    background-size: cover;
+}
 
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1 {
+    border: none;
+}
 
 /* Navigation */
+nav li {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
+nav a: link {
+    text-decoration: none;
+}
+
+nav a: hover{
+    color: red;
+}
+
+button {
+    padding: 1em;
+    background: grey;
+    color: white;
+    border: black solid 5px;
+    border-radius: 10px;
+}
 
 /* Typography */
 
+h1, h2 {
+    color: grey;
+    font-family: 'Henny Penny', cursive;
+}
+
+p {
+    font-family: 'Henny Penny', cursive;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    letter-spacing: 4px;
+}
