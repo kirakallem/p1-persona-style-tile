@@ -5,57 +5,79 @@
 /* Color Palette */
 .color-1 {
     background: black;
+    border: none;
 }
 
 .color-2 {
-    background: #D4AF37;
+    background: #c6c2c2;
+    border: none;
 }
 
 .color-3 {
     background: #ffef99;
+    border: none;
 }
 
 .color-4 {
     background: #7f0000;
+    border: none;
 }
 
 .color-5 {
     background: #660000;
+    border: none;
 }
 
 /* Textures or Patterns*/
+
 .pattern-1 {
      background: url("http://www.uncalke.com/i/dark-pattern-wallpaper-for-android.jpg")25% 25%  no-repeat;
     background-size: cover;
+    border: none;
 }
 
 .pattern-2 {
     background: url("https://www.hdwallpapers.net/images/louis-vuitton-pattern-wallpaper-for-2880x1800-60-619.jpg");
     background-size: cover;
+    border: none;
 }
 
 .pattern-3 {
     background: url("https://s-media-cache-ak0.pinimg.com/736x/d1/9d/43/d19d43c9dbeae4f58e4b49587dba62a2.jpg");
     background-size: cover;
+    border: none;
 }
 
 .pattern-4 {
     background: url("http://randomwallpapers.net/opera-black-pattern-honeycomb-patterns-1920x1200-wallpaper91515.jpg");
     background-size: cover;
+    border: none;
 }
 
 .pattern-5 {
     background: url("http://images.kaneva.com/filestore7/4232711/5146587/PatternUUURedURose.jpg");
     background-size: cover;
+    border: none;
 }
 
 /* Imagery */
 
+.imagery-1,
+.imagery-2
+.imagery-3,
+.imagery-4,
+.imagery-5 {
+    border: none;
+}
 
 
 
 /* Icons */
-.icon-1 {
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5 {
     border: none;
 }
 
@@ -82,7 +104,8 @@ button {
 /* Typography */
 
 h1, h2 {
-    color: grey;
+    color:#c6c2c2;
+    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
 
