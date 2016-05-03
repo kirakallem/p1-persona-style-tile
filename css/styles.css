@@ -4,24 +4,54 @@
 
 /* Color Palette */
 .color-1 {
-    background: red;
+    background: black;
 }
 
 .color-2 {
-    background: blue;
+    background: #D4AF37;
 }
 
 .color-3 {
-    background: white;
+    background: #ffef99;
+}
+
+.color-4 {
+    background: #7f0000;
+}
+
+.color-5 {
+    background: #660000;
 }
 
 /* Textures or Patterns*/
 .pattern-1 {
-     background: url("http://bgfons.com/upload/wood%20_texture3193.jpg")25% 25%  no-repeat;
+     background: url("http://www.uncalke.com/i/dark-pattern-wallpaper-for-android.jpg")25% 25%  no-repeat;
+    background-size: cover;
+}
+
+.pattern-2 {
+    background: url("https://www.hdwallpapers.net/images/louis-vuitton-pattern-wallpaper-for-2880x1800-60-619.jpg");
+    background-size: cover;
+}
+
+.pattern-3 {
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/d1/9d/43/d19d43c9dbeae4f58e4b49587dba62a2.jpg");
+    background-size: cover;
+}
+
+.pattern-4 {
+    background: url("http://randomwallpapers.net/opera-black-pattern-honeycomb-patterns-1920x1200-wallpaper91515.jpg");
+    background-size: cover;
+}
+
+.pattern-5 {
+    background: url("http://images.kaneva.com/filestore7/4232711/5146587/PatternUUURedURose.jpg");
     background-size: cover;
 }
 
 /* Imagery */
+
+
 
 
 /* Icons */
@@ -38,31 +68,24 @@ nav li {
 }
 
 nav a: link {
-    text-decoration: none;
+    
 }
 
 nav a: hover{
-    color: red;
+    
 }
 
 button {
-    padding: 1em;
-    background: grey;
-    color: white;
-    border: black solid 5px;
-    border-radius: 10px;
+
 }
 
 /* Typography */
 
 h1, h2 {
     color: grey;
-    font-family: 'Henny Penny', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
-    font-family: 'Henny Penny', cursive;
-    font-size: 1.25em;
-    line-height: 1.25em;
-    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
 }
